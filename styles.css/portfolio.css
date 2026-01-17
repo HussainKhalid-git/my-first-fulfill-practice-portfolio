@@ -1,0 +1,73 @@
+/* *use for seleact all and fixing all side margin,border,padding */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* for font link copy from the google font */
+/* its a shared style because its target some specific tag together */
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* its for the logo design (Mary) */
+/* shared style */
+.logo h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+/* shared style */
+.color-orange{
+    color: #FD6E0A;
+}
+/* for design header */
+/* its a main style because its use for only this */
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+
+/* design for all in nav tag */
+nav{
+    /* width calculation (total px(1600)/nav bar width px(1140)*/
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    /* flex use for standing side by seide */
+    display: flex;
+    /* justify-content use for making gap by side */
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* for working the class menu */
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+    align-items: center;
+}
+
+/* working for design anchor tag in menu*/
+nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+
+/* working for design button */
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
