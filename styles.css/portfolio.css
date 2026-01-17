@@ -71,3 +71,13 @@ nav .menu a{
     font-weight: bold;
     color: white;
 }
+/* End the header section */
+
+
+#banner {
+    border: 1px solid red;
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
