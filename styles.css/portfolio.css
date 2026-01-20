@@ -30,6 +30,7 @@
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -46,6 +47,18 @@
     line-height: 30px;
     color: #757575;
     margin-bottom: 30px;
+}
+
+
+#skills{
+    /* border: 1px solid red; */
+    padding: 130px;
+}
+
+#skills .skills-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 /* for design header */
 /* its a main style because its use for only this */
@@ -147,13 +160,13 @@ nav .menu a{
 
 
 #about{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-top: 130px;
 }
 
 
 #about .about-container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
@@ -179,4 +192,33 @@ nav .menu a{
     font-size: 20px;
     font-weight: bold;
     color: #474747;
+}
+
+#skills .skills-container .skills-info{
+    display: flex;
+    gap: 24px;
+}
+
+.skills-info .skills-card{
+    padding: 30px;
+    border: 1px solid red;
+    max-width: 267px;
+    box-shadow: 0px 6px 50px 0px #00000080;
+}
+
+.skills-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+
+.skills-card h3{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skills-card p{
+     font-size:16px;
+    color: #757575;
+    line-height: 28px;
 }
